@@ -26,6 +26,12 @@
   font-size: 18px;
 }
 
+.de-ate {
+  display: block;
+  margin: 0 0 8px 20px;
+  color: #9aaabe;
+}
+
 .dsmeta-sales-table {
   width: 100%;
   border-spacing: 0;
