@@ -33,7 +33,7 @@ public class SmsService {
 		Sale sale = saleRepository.findById(saleId).get();
 		
 		String month = Integer.toString(sale.getDate().getMonthValue());
-		//if (month.length() == 1) month = "0" + month; 
+		if (month.length() == 1) month = "0" + month; 
 		
 		String year = Integer.toString(sale.getDate().getYear());
  		
