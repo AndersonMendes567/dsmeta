@@ -23,7 +23,7 @@ function SalesCard() {
             className="dsmeta-form-control" 
             selected={minDate} 
             dateFormat="dd/MM/yy"
-            onChange={(date : Date) => setMinDate(date)} 
+            onChange={(date: Date) => setMinDate(date)} 
           />
         </div>
         <span className="de-ate">Até</span>
